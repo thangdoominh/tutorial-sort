@@ -1,0 +1,14 @@
+1. Set current to 0
+2. Loop (until last element sorted)
+	1. Set smallest to current
+	2. Set walker to current + 1
+	3. Loop (walker <= last)
+		1. if (walker key < smallest key)
+		2. incremetn walker 
+	4. end loop
+	5. exchange (current, smallest)
+	6. increment current
+3. end loop
+
+Time Complexity: O(n2) as there are two nested loops.
+Auxiliary Space: O(1) 
